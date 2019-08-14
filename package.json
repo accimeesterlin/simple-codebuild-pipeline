@@ -1,0 +1,23 @@
+{
+  "name": "simple-codebuild-pipeline",
+  "version": "1.0.0",
+  "description": "This is a simple Test for AWS CodeBuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test is running\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accimeesterlin/simple-codebuild-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/accimeesterlin/simple-codebuild-pipeline/issues"
+  },
+  "homepage": "https://github.com/accimeesterlin/simple-codebuild-pipeline#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

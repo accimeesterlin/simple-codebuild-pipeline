@@ -10,12 +10,8 @@ phases:
       - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - npm i
   build:
-    runtime-versions:
-      nodejs: 10
     commands:
     - npm test
   post_build:
-    runtime-versions:
-      nodejs: 10
     commands:
     - echo "Testing and testing this crap"

@@ -1,9 +1,5 @@
 version: 0.2
 phases:
-  install:
-    # adding command
-    - commands:
-      - npm install
   build:
-    - commands:
+    commands:
       - echo "It's currently building"

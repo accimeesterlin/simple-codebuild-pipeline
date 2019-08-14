@@ -1,0 +1,10 @@
+version: 0.2
+run-as: TEST_ENV
+phases:
+  install:
+    # adding command
+    - commands:
+      - npm install
+  build:
+    - commands:
+      - echo "It's currently building"

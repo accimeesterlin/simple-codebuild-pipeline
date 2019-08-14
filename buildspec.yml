@@ -10,8 +10,12 @@ phases:
       - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - npm i
   build:
+    runtime-versions:
+      nodejs: 10
     commands:
     - npm test
   post_build:
+    runtime-versions:
+      nodejs: 10
     commands:
-    - echo "Succeeding? ${CODEBUILD_BUILD_SUCCEEDING}"
+    - echo "Testing and testing this crap"
